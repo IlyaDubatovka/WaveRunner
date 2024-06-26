@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4079826702120118198}
   - component: {fileID: 5383606626379682459}
   - component: {fileID: 3764914709378482333}
-  - component: {fileID: 7028020454014715206}
+  - component: {fileID: -1279045848150237660}
   m_Layer: 0
   m_Name: RotatingObstacle
   m_TagString: Obstacle
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7028020454014715206
+--- !u!114 &-1279045848150237660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,5 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9caebf34682464b935e6879005af9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _minRotationnSpeed: 10
-  _maxRotationSpeed: 50
+  _minRotationnSpeed: 3
+  _maxRotationSpeed: 12

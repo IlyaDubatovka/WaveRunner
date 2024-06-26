@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1658023003089615129}
   - component: {fileID: 8249367855800243645}
   - component: {fileID: 2170874326446035358}
-  - component: {fileID: 3386851836056040522}
+  - component: {fileID: 7317035196929886891}
   m_Layer: 0
   m_Name: HorizontalMovingObstacle
   m_TagString: Obstacle
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3386851836056040522
+--- !u!114 &7317035196929886891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,4 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48e84ab35a1ecc34a99db5d3df1fa7e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 3

@@ -15,8 +15,6 @@ public class HorizontalMovingObstacle : MonoBehaviour
         _transform = GetComponent<Transform>();
 
         _amplitude = Random.Range(2, 15);
-        var start = _transform.position.x - _amplitude;
-        var finish=_transform.position.x + _amplitude;
 
     }
 

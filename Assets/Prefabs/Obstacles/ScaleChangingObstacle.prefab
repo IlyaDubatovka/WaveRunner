@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6166555734570636999}
   - component: {fileID: 9176001746803658217}
   - component: {fileID: 1582780106742172488}
-  - component: {fileID: -1766015133702020328}
+  - component: {fileID: -506073096440850761}
   m_Layer: 0
   m_Name: ScaleChangingObstacle
   m_TagString: Obstacle
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-1766015133702020328
+--- !u!114 &-506073096440850761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aaff3634afeda94db6c4330f1b66d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _minScaleModificator: 0.7
+  _minScaleModificator: 1.2
   _maxScaleModificator: 3
-  _minSpeedTransformation: 2
-  _maxSpeedTransformation: 10
+  _minSpeedTransformation: 1
+  _maxSpeedTransformation: 5
